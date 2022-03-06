@@ -5,10 +5,10 @@
     
     <Authors>Gérald Barré, Mads Kristensen, RockstarDev, salar2k</Authors>
     <Product>Bundler &amp; Minifier TagHelpers</Product>
-    <PackageLicenseUrl>https://github.com/madskristensen/BundlerMinifier/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/salarcode/BundlerMinifierPlus/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright 2022</Copyright>
     <PackageIconUrl>https://raw.githubusercontent.com/madskristensen/BundlerMinifier/master/src/BundlerMinifierVsix/Resources/icon.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/madskristensen/BundlerMinifier</RepositoryUrl>
+    <RepositoryUrl>https://github.com/salarcode/BundlerMinifierPlus</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>concat;bundle;minify;minification;css;js;html;aspnet;netcore</PackageTags>
     <!-- forces SDK to copy dependencies into build output to make packing easier -->

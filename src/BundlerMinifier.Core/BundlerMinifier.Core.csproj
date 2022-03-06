@@ -8,6 +8,7 @@
     <Authors>Mads Kristensen, salar2k</Authors>
     <OutputType>Exe</OutputType>
     <PackageId>BundlerMinifierPlus.Core</PackageId>
+    <RepositoryUrl>https://github.com/salarcode/BundlerMinifierPlus</RepositoryUrl>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>

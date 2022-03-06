@@ -9,6 +9,11 @@
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery
 
+## 5.0
+
+- [x] Renamed to `BundlerMinifierPlus` to maintain the nuget package.
+- [x] Added support to .net 5.0
+
 ## 2.4
 
 - [x] .csproj based ASP.NET Core apps support bundle-on-build

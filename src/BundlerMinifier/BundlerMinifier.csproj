@@ -3,9 +3,9 @@
   <Import Project="..\common.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>net46;netstandard1.3;netcoreapp2.0;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net46;netstandard2.0;netcoreapp3.1;net5.0</TargetFrameworks>
     <Title>Bundler &amp; Minifier</Title>
-    <PackageId>BuildBundlerMinifier</PackageId>
+    <PackageId>BuildBundlerMinifierPlus</PackageId>
 
     <BuildOutputTargetFolder>tools</BuildOutputTargetFolder>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -19,6 +19,11 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Authors>Mads Kristensen, salar2k</Authors>
+    <Copyright>Copyright 2022</Copyright>
+    <AssemblyVersion>5.0</AssemblyVersion>
+    <FileVersion>5.0</FileVersion>
+    <Version>5.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,8 +32,8 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Build.Framework" Version="15.1.0-*" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.1.0-*" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Build.Framework" Version="15.9.20" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.9.20" PrivateAssets="All" />
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" PrivateAssets="All" />
     <PackageReference Include="NUglify" Version="1.17.10" PrivateAssets="All" />
   </ItemGroup>

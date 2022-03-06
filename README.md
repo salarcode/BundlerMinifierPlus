@@ -5,9 +5,9 @@ minification of JS, CSS and HTML files.
 
 Package name is now `BuildBundlerMinifierPlus`, build the projects then use local Nuget repository to get access to it. Here is list of paackages:
 
-* `[BuildBundlerMinifierPlus](https://www.nuget.org/packages/BuildBundlerMinifierPlus/)` version 5.0
-* `[BundlerMinifierPlus.Core](https://www.nuget.org/packages/BundlerMinifierPlus.Core/)` version 5.0
-* `[BundlerMinifierPlus.TagHelpers](https://www.nuget.org/packages/BundlerMinifierPlus.TagHelpers/)` version 5.0
+* [BuildBundlerMinifierPlus](https://www.nuget.org/packages/BuildBundlerMinifierPlus/) version 5.0
+* [BundlerMinifierPlus.Core](https://www.nuget.org/packages/BundlerMinifierPlus.Core/) version 5.0
+* [BundlerMinifierPlus.TagHelpers](https://www.nuget.org/packages/BundlerMinifierPlus.TagHelpers/) version 5.0
 
 
 Download the extension (for [this repo](https://github.com/failwyn/BundlerMinifier)) at the

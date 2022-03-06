@@ -3,7 +3,14 @@
 A Visual Studio extension that let's you configure bundling and
 minification of JS, CSS and HTML files.
 
-Download the extension at the
+Package name is now `BuildBundlerMinifierPlus`, build the projects then use local Nuget repository to get access to it. Here is list of paackages:
+
+* BuildBundlerMinifierPlus
+* BundlerMinifierPlus.Core
+* BundlerMinifierPlus.TagHelpers
+
+
+Download the extension (for [this repo](https://github.com/failwyn/BundlerMinifier)) at the
 [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/9ec27da7-e24b-4d56-8064-fd7e88ac1c40)
 
 ---------------------------------------

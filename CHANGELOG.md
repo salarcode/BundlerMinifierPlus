@@ -1,13 +1,13 @@
-# Roadmap
-
-- [ ] ASP.NET Core TagHelper support
-- [ ] Create additional source map for the bundle files
-- [ ] Adopt new VS Error List API
 
 # Changelog
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery
+
+## 5.1
+
+- [x] NUglify got updated to 1.20.0
+- [x] Added support for .net 6.0
 
 ## 5.0
 

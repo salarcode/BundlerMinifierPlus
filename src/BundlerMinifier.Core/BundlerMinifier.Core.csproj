@@ -5,17 +5,15 @@
   <PropertyGroup>
     <TargetFrameworks>net46;netstandard2.0;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
     <DefineConstants>$(DefineConstants);DOTNET</DefineConstants>
-    <Authors>Mads Kristensen, salar2k</Authors>
+    <Authors>Argo Zhang</Authors>
     <OutputType>Exe</OutputType>
-    <PackageId>BundlerMinifierPlus.Core</PackageId>
+    <PackageId>BundlerMinifierPlus2022.Core</PackageId>
     <RepositoryUrl>https://github.com/salarcode/BundlerMinifierPlus</RepositoryUrl>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <AssemblyVersion>5.1</AssemblyVersion>
-    <FileVersion>5.1</FileVersion>
-    <Version>5.1</Version>
+    <Version>5.2.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

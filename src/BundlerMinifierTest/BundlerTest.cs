@@ -41,6 +41,7 @@ namespace BundlerMinifierTest
             File.Delete("../../../artifacts/file4.min.html");
             File.Delete("../../../artifacts/test7.min.js");
             File.Delete("../../../artifacts/test8.min.js");
+            File.Delete("../../../artifacts/test10.min.js");
         }
 
         [TestMethod]
@@ -220,6 +221,16 @@ namespace BundlerMinifierTest
             string jsResult = File.ReadAllText("../../../artifacts/test9.min.js");
 
             Assert.AreEqual("function r(n,t){return n**t}let x=2**5.1,y=3**x,z=2**81,p=21;", jsResult);
+        }
+
+        [TestMethod]
+        public void DuplicatePropertyNames()
+        {
+            _processor.Process(TEST_BUNDLE.Replace("test1", "test10"));
+
+            string jsResult = File.ReadAllText("../../../artifacts/test10.min.js");
+
+            Assert.AreEqual("\"use strict\";const config={...Man.get(target),...Man.get(this),...!1,...!1};", jsResult);
         }
     }
 }

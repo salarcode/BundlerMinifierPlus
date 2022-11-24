@@ -21,9 +21,9 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Authors>Mads Kristensen, salar2k</Authors>
     <Copyright>Copyright 2022</Copyright>
-    <AssemblyVersion>5.2</AssemblyVersion>
-    <FileVersion>5.2</FileVersion>
-    <Version>5.2</Version>
+    <AssemblyVersion>5.3</AssemblyVersion>
+    <FileVersion>5.3</FileVersion>
+    <Version>5.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -35,7 +35,7 @@
     <PackageReference Include="Microsoft.Build.Framework" Version="15.9.20" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.9.20" PrivateAssets="All" />
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" PrivateAssets="All" />
-    <PackageReference Include="NUglify" Version="1.20.2" PrivateAssets="All" />
+    <PackageReference Include="NUglify" Version="1.20.3" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">

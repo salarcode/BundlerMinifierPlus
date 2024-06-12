@@ -2,3 +2,6 @@
 :root{
     --bb-width-test: ;
 } 
+body:nth-child(1 of .test) {
+    background-color: black;
+}

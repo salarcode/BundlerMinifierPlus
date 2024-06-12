@@ -4,6 +4,10 @@
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery
 
+## 5.4
+
+- [x] NUglify got updated to 1.21.8
+
 ## 5.3
 
 - [x] NUglify got updated to 1.20.3
